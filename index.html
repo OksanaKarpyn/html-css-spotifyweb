@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +27,8 @@
                   <div class="aside-item-label"><h2>Spotify</h2></div>
               </div>
               <div class="aside-item">
-                  <div class="aside-item-icon">
+               <div class="aside-item-lime"></div>
+                  <div class="aside-item-icon ">
                      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="#ffffff"/></svg>
                   </div>
                   <div class="aside-item-label" id="label-White">Home</div>
@@ -258,9 +258,39 @@
             </div>
          </div>
       </div>
-      <div class="general-footer">
-         <div class="player-footer">
-            <div></div>
+      <div class="footer">
+         <div class="player-footer-row">
+            <div class="player-item-left">
+               <div class="player-img">
+                  <img src="./assets/img/split.jpeg" alt="foto" width="100%">
+               </div>
+               <div class="player-title"><h4>Sinister</h4><span>Brano Norme</span></div>
+               <div class="player-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-folder"></i>
+               </div>
+            </div>
+            <div class="player-item-center">
+               <div class="player-icon-top">
+                  <i class="fa-solid fa-shuffle"></i>
+                  <i class="fa-solid fa-backward-step"></i>
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-solid fa-forward-step"></i>
+                  <i class="fa-solid fa-rotate-right"></i>
+               </div>
+               <div class="player-icon-bottom">
+                  <label for="range">0.25</label>
+                  <input class="range" type="range" id="range">
+                  <label for="range"><span>4:35</span></label>
+               </div>
+               
+            </div>
+            <div class="player-item-end">
+               <i class="fa-solid fa-list-ul"></i>
+               <i class="fa-solid fa-tv"></i>
+               <i class="fa-solid fa-volume-high"></i>
+               <input class="range1" type="range">
+            </div>
          </div>
       </div>
    </div>
